@@ -7,7 +7,7 @@ const INITIAL_STATE = {
       purchases: [],
       purchaseDetail: {
             id: -1,
-            total: 0,
+            total: '',
             orderNumber: '',
             orderDate: null,
             creditCard: '',
