@@ -1,10 +1,10 @@
 import {
       SET_USER_PURCHASES,
-      SET_PURCHASES_DETAIL
+      SET_PURCHASE_DETAIL
 } from './types';
 
-export function setPurchaseDetail() {
-      return ({
+export function setPurchaseDetail(_id) {
+           return ({
             type: SET_PURCHASE_DETAIL,
             payload: _id
       })
@@ -100,7 +100,7 @@ export function fetchUserPurchases() {
                         creditCard: '-011',
                         user: {
                               name: 'Max Dubois',
-                              shippingAddress: '1204 west stat' 
+                              shippingAddress: '1204 west state' 
                         }
                   },
                   
