@@ -33,21 +33,20 @@ class SignInForm extends Component {
                 type='email'
                 title='Email'
                 placeholder='Email'
-                name='email' 
+                name='email'
                 component={FormInput}/>
                 <Field className='sign-in-form__password'
                 type='password'
                 title='Password'
                 placeholder='Password'
-                name='password' 
+                name='password'
                 component={FormInput}/>
                 <div className='sign-in-form__line'></div>
                 <Field className='sign-in-form__login'
                 onClick={() => history.push('/account')}
                 type='submit'
                 title='Login'
-                placeholder='Login'
-                name='login' 
+                name='login'
                 component={FormButton}/>
                 <Details className='sign-in-form__details' title='QuickLinks' links={links}/>
             </form>

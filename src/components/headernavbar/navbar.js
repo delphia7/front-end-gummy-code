@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import * as actions from '../../actions';
 
 class Navbar extends Component {
+
     handleOnClick = (link) => {
         this.props.changeNavbarActive(link._id)
         if(this.props.onClick) {
@@ -12,7 +13,7 @@ class Navbar extends Component {
     }
 
     render() {
-        return(
+        return (
             <div className='navbar'>
                 {
                     this.props.navbarLinks.map((link, index) => {

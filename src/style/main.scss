@@ -1,7 +1,7 @@
 
 
 html {
-    font-size: 62.5%; 
+    font-size: 62.5%;
 }
 
 *,
@@ -17,19 +17,18 @@ body {
     color: #808080;
 }
 
+
 @import 'layout';
 @import 'headernavbar';
 @import 'page-title';
 @import 'form-fields';
 @import 'details';
 
-// AUTH
-
+// AUTH 
 @import 'auth/signin';
 @import 'auth/signup';
 
 // ACCOUNT
-
 @import 'account/account';
 @import 'account/purchase-history';
 @import 'account/account-information';

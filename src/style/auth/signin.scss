@@ -1,6 +1,6 @@
 .sign-in {
-   grid-row: content-s/content-e;
-   grid-column: s/e;
+    grid-row: content-s/content-e;
+    grid-column: s/e;
 
     // &__page-title {
 
@@ -18,7 +18,7 @@
         grid-column: 1/-1;
     }
     &__email {
-         grid-row: email-s/email-e;
+        grid-row: email-s/email-e;
     }
     &__password {
         margin-top: 15px;
@@ -26,7 +26,6 @@
     }
     &__line {
         grid-row: line-s/line-e;
-        grid-column: 1/-1;
         border-top: 1px solid #ccc;
     }
     &__login {

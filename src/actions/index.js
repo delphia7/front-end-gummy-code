@@ -1,4 +1,4 @@
-import {
+import { 
     setHeaderLinks,
     setNavbarLinks,
     changeNavbarActive
@@ -19,7 +19,7 @@ export {
     setHeaderLinks,
     setNavbarLinks,
     changeNavbarActive,
-    
+
     fetchUserPurchases,
     setPurchaseDetail,
 

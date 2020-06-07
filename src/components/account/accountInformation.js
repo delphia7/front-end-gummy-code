@@ -9,11 +9,11 @@ class AccountInformation extends Component {
         console.log(fields);
     }
 
-    render () {
+    render() {
         return (
             <div className='account-information'>
                 <PageTitle className='account-information' title='Account Information'/>
-                <AccountInformationForm onSubmit={this.onSubmit} className='account-information__form'/>
+                <AccountInformationForm onSubmit={this.onSubmit} className='account-information__form' />
             </div>
         )
     }

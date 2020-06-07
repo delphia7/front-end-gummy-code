@@ -1,4 +1,4 @@
-import React, { Component, useLayoutEffect } from 'react';
+import React, { Component } from 'react';
 
 import Header from './headernavbar/header';
 import Navbar from './headernavbar/navbar';
@@ -9,9 +9,9 @@ class Layout extends Component {
       <div className='layout'>
         {this.props.children}
         <Header/>
-        <Navbar/> 
+        <Navbar/>
       </div>
-    )
+    );
   }
 }
 

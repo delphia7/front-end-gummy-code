@@ -5,14 +5,14 @@ import history from '../../history';
 
 class Header extends Component {
     render() {
-        return(
+        return (
             <div className='header'>
-                <img className='header__img' src='http://via.placeholder.com/50*50'/>
+                <img className='header__img' src='http://via.placeholder.com/50x50'/>
                 <div className='header__links'>
                 {
                     this.props.headerLinks.map((link, index) => {
                         return (
-                            <a className='headerr__link' key={index} onClick={() => history.push(link.path)}>
+                            <a className='header__link' key={index} onClick={() => history.push(link.path)}>
                                 {link.title}
                             </a>
                         )

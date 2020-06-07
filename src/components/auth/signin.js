@@ -16,7 +16,7 @@ class SignIn extends Component {
     onSubmit = (fields) => {
         console.log(fields);
     }
-    
+
     render() {
         return (
             <div className='sign-in'>
@@ -28,4 +28,5 @@ class SignIn extends Component {
 }
 
 SignIn = connect(null, actions)(SignIn);
+
 export default SignIn;

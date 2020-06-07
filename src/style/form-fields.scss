@@ -7,7 +7,7 @@
     }
 
     &__label {
-        font-size:14px,  
+        font-size: 14px;
     }
     &__input {
         box-sizing: border-box;
@@ -34,16 +34,18 @@
             outline: none;
         }
     }
+
     &__gray-button {
         background: #999;
         width: 137px;
     }
 
 }
+
 .form-button-long-gray {
     display: grid;
     grid-gap: 6.5px;
-
+    
     &__button {
         height: 38px;
         width: 243px;
@@ -60,6 +62,6 @@
 
     &__label {
         padding-left: 20px;
-        font-size: 14px,  
+        font-size: 14px;
     }
 }
