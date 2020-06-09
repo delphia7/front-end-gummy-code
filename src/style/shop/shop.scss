@@ -18,7 +18,8 @@
         grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
         grid-column-gap: 25px;
         grid-row-gap: 40px;
-        max-width: 1035px;
+        //max-width: 1035px;
+        width: 100%;
         justify-self: center;
     }
 }
