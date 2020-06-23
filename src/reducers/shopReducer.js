@@ -20,12 +20,12 @@ export default function(state = INITIAL_STATE, action) {
                 categories
             }
         case SET_SHOP_PRODUCTS:
-            var filteredProducts = [];
-             state.products.map(product => {
-                 if(product.titleincludes(action.payload)) {
-                     filteredProducts.push(product)
-                 }
-             })
+            // var filteredProducts = [];
+            //  state.products.map(product => {
+            //      if(product.titleincludes(action.payload)) {
+            //          filteredProducts.push(product)
+            //      }
+            //  })
             return {
                 ...state,
                 products: action.payload
